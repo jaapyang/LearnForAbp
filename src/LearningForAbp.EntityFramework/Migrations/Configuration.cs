@@ -28,6 +28,9 @@ namespace LearningForAbp.Migrations
                 //Default tenant seed (in host database).
                 new DefaultTenantCreator(context).Create();
                 new TenantRoleAndUserBuilder(context, 1).Create();
+
+                //default task seed (in host database).
+                new DefaultTestDataForTask(context).Create();
             }
             else
             {

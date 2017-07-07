@@ -1,7 +1,9 @@
 ﻿using System.Data.Common;
+using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using LearningForAbp.Authorization.Roles;
 using LearningForAbp.MultiTenancy;
+using LearningForAbp.Tasks;
 using LearningForAbp.Users;
 
 namespace LearningForAbp.EntityFramework
@@ -43,5 +45,8 @@ namespace LearningForAbp.EntityFramework
         {
 
         }
+
+        // TODO: define an IDbSet for your entity Tasks
+        public IDbSet<Task> Tasks { get; set; }
     }
 }

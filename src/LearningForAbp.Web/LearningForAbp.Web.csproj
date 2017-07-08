@@ -455,7 +455,9 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Models\Tasks\IndexViewModel.cs" />
     <Compile Include="Controllers\Results\ChallengeResult.cs" />
+    <Compile Include="Controllers\TasksController.cs" />
     <Compile Include="Controllers\TenantsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Models\Layout\UserMenuOrLoginLinkViewModel.cs" />
@@ -492,6 +494,8 @@
     <Content Include="Views\Layout\_UserMenuOrLoginLink.cshtml" />
     <Content Include="Views\Tenants\Index.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Tasks\Index.cshtml" />
+    <Content Include="Views\Tasks\_List.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

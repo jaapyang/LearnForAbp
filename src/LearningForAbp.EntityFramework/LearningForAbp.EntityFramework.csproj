@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityFramework\LearningForAbpDbContext.cs" />
+    <Compile Include="EntityFramework\Repositories\BackendTaskRepository.cs" />
     <Compile Include="EntityFramework\Repositories\LearningForAbpRepositoryBase.cs" />
     <Compile Include="Migrations\201701271145151_AbpZero_Initial.cs" />
     <Compile Include="Migrations\201701271145151_AbpZero_Initial.Designer.cs">

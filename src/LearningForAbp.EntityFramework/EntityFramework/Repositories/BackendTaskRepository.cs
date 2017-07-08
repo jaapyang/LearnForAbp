@@ -20,7 +20,7 @@ namespace LearningForAbp.EntityFramework.Repositories
             var query = GetAll();
             if (personId > 0)
             {
-                query = query.Where(x=>x.AssignedPersonId == personId);
+                query = query.Where(x => x.AssignedPersonId == personId);
             }
             return query.ToList();
         }

@@ -112,6 +112,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepositories\IBackendTaskRepository.cs" />
     <Compile Include="LearningForAbpConsts.cs" />
     <Compile Include="LearningForAbpCoreModule.cs" />
     <Compile Include="Authorization\LearningForAbpAuthorizationProvider.cs" />
